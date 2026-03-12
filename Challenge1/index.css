@@ -1,0 +1,24 @@
+html, p {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
