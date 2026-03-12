@@ -11,6 +11,6 @@ app.get('admin',(req,res)=> {
     res.sendFiles(__dirname + '/views/admin.html');
 })
 
-app.listen(PORT, () => {
-    console.log('Server running at https://localhost:${PORT}');
+app.listen(8000, () => {
+    console.log('Server running at https://localhost:8000');
 })
