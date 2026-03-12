@@ -1,4 +1,6 @@
 {
-    "name": "easy-ctf-hidden-flag"
-
+    "name": "employee portal",
+    "version":"1.0.0",
+    "Description": "Easy CTF challenge",
+    "author":"Your Name"
 }

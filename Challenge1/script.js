@@ -1,2 +1,3 @@
 //Hint for the players
-console.log("Check the source code")
+console.log("Administrators have their own page.")
+
