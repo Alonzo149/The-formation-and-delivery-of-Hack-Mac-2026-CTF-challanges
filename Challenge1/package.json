@@ -1,5 +1,5 @@
 {
-  "name": "challenge1",
+  "name": "ctf-challenge",
   "version": "1.0.0",
   "description": "Hack Mac easy challenge",
   "main": "server.js",
