@@ -5,12 +5,12 @@ const app= express();
 
 app.use(express.static(__dirname));
 
-app.get("/",(req,res) => {
-    res.sendFile(path.join(__dirname, "index.html"));
+app.get("/challenge1",(req,res) => {
+    res.sendFile(__dirname + "/views/index.html");
 });
 
-app.get("/admin.html",(req,res)=> {
-    res.sendFile(path.join(__dirname, "admin", "admin.html"));
+app.get("/challenge1/admin",(req,res)=> {
+    res.sendFile(__dirname +"/views/admin.html");
 });
 
 app.listen(8000,"0.0.0.0",() => {
