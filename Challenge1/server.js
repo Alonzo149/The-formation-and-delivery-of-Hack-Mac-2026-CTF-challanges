@@ -13,6 +13,6 @@ app.get("/challenge1/admin",(req,res)=> {
     res.sendFile(__dirname +"/views/admin.html");
 });
 
-app.listen(8000,"0.0.0.0",() => {
+app.listen(8000,() => {
     console.log("Server running at port http://localhost:8000");
 })
