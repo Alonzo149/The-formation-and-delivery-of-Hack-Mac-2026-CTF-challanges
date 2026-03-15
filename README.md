@@ -13,8 +13,13 @@ Hard- 4 parts
 ### Access: 
 Run the docker container: 
 ```bash 
-docker run -p 8000:8000 challenge1
+docker compose up
+```
+Stop docker:
+```bash
+docker compose down
 ```
 Navigate to:
 ```bash
-http://localhost:8000
+http://localhost:8000/challenge1
+```
