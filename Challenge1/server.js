@@ -14,5 +14,5 @@ app.get("/challenge1/admin",(req,res)=> {
 });
 
 app.listen(8000,() => {
-    console.log("Server running at port http://localhost:8000");
+    console.log("Server running at port http://localhost:8000/challenge1");
 })
