@@ -11,15 +11,19 @@ Hard- 4 parts
 ### Objective: Find a way to access the hidden admin logs page to capture flag
 ### Deployment: Docker
 ### Access: 
-Run the docker container: 
+
+To Start the Challenge, run the docker container: 
 ```bash 
 docker compose up
 ```
-Stop docker:
-```bash
-docker compose down
-```
-Navigate to:
+Then navigate to:
 ```bash
 http://localhost:8000/challenge1
 ```
+
+Exit and delete the docker container:
+```bash
+docker compose down
+```
+
+
