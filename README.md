@@ -1,18 +1,15 @@
-# WELCOME TO HACKMACK CTF
+# WELCOME TO HACK MAC CTF
 CTF Levels
 Easy-
 Medium-
 Hard- 4 parts
 
-## Challenge 1 – Hidden Admin Logs 
-### Category: Web
-### Difficulty: Easy
-### Description:
-### Objective: Find a way to access the hidden admin logs page to capture flag
-### Deployment: Docker
-### Access: 
 
-To Start the Challenge, run the docker container: 
+
+### Accessing the challenges in Docker
+## Run commands in the terminal-
+
+Run the docker container: 
 ```bash 
 docker compose up
 ```
@@ -26,4 +23,7 @@ Exit and delete the docker container:
 docker compose down
 ```
 
+## Challenge 1 – Hidden Admin Logs 
+### Category: Web
+### Difficulty: Easy
 
