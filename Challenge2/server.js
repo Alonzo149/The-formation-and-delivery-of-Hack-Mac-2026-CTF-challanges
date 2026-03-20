@@ -14,11 +14,11 @@ db.serialize(() => {
     db.run("INSERT INTO users VALUES ('admin', 'supersecret')");
 });
 
-app.get("/", (req, res) => {
+app.get("/challenge2", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "login.html"));
 });
 
-app.post("/Challenge2/views/login.html", (req, res) => {
+app.post("/challenge2/login", (req, res) => {
     const { username, password } = req.body;
 
     //vulnerable query
