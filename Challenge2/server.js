@@ -34,5 +34,5 @@ app.post("/challenge2/login", (req, res) => {
 });
 
 app.listen(8001, "0.0.0.0", () => {
-    console.log("Running on port 8001");
+    console.log("Running on port http://localhost:8001/challenge2");
 });
