@@ -11,6 +11,7 @@ Hard- 4 parts
 ### Accessing the challenge in Docker
 ## Run commands in the terminal-
 
+
 Go to the challenge directory:
 ```bash 
 cd challenge1
@@ -18,6 +19,11 @@ cd challenge1
 
 Run the docker container: 
 ```bash 
+npm start
+```
+
+Then: 
+```
 docker compose up
 ```
 Then navigate to:
