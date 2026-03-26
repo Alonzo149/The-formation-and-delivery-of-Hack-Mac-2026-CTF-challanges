@@ -1,0 +1,6 @@
+services:  
+  challenge2:
+    build: .
+    ports:
+      - "8001:8000"
+    restart: always
