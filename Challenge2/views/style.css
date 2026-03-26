@@ -52,6 +52,19 @@ main {
     font-size: 14px;
     margin-top: 10px;
 }
+input{
+    width: 100%;
+    padding: 8px;
+    background: #0c1022;
+    border: none;
+    border-bottom: 1px solid #335;
+    color: white;
+}
+input[type="submit"]{
+    background: #4fc3f7;
+    color: black;
+    cursor:pointer; 
+}
 img {
     display: block;
     margin: 25px auto 10px;
