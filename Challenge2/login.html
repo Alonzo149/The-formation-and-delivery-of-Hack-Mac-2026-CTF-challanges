@@ -1,15 +1,48 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <h1>Log in</h1>
-    <p></p>
-    <div class="login">
-        <form action="/Challenge2/flag2.html" method="post">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password"><br><br>
-            <input type="submit" value="Log in">           
-        </form>
-    </div>
+
+<header>
+  <h1>Employee Portal</h1>
+  <p class="subtitle">Staff login</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Staff</a>
+  <a href="#">Help</a>
+</nav>
+
+<main>
+
+  <div class="card">
+  <h2>Login</h2>
+
+  <form action="login.php" method="post">
+  <label>Username</label><br>
+  <input type="text" name="username"><br><br>
+
+  <label>Password</label><br>
+  <input type="password" name="password"><br><br>
+
+  <input type="submit" value="Log in">
+  </form>
+
+  <p class="warning">Access is logged</p>
+
+  <!-- test account still exists -->
+  </div>
+
+</main>
+
+<footer>
+  internal system
+</footer>
 
 </body>
+</html>
