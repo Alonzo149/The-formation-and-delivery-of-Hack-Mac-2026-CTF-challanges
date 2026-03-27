@@ -34,11 +34,18 @@ app.post("/challenge2/login", (req, res) => {
             res.send(err.message);
             return;
         }
-        if (row) {
+
+        if (!row) {
+            res.send("Login failed");
+            return;
+        }
+
+        if (row.username.startsWith("CTF{")) {
             res.send(`Login successful! Here is your flag: ${row.username}`);
         } else {
-            res.send("Login failed");
+            res.sendFile(path.join(__dirname, "views", "admin.html"));
         }
+   
     });
 });
 
