@@ -1,0 +1,28 @@
+How to Run Docker
+(Make sure Docker Desktop is running first)
+
+Start the container
+Run the following command to build and start the container:
+    docker compose up --build
+
+Rebuilding
+If you make any changes to the code, rebuild the container using:
+    docker compose up --build
+
+If there are no changes, you can just run:
+    docker compose up
+
+Stop the container
+Press:
+    Ctrl + C
+
+Remove the container
+To stop and remove the container, run:
+    docker compose down
+
+If you get an error:
+    cannot connect to the docker API
+
+Try:
+    - Start Docker Desktop
+    - Wait until it is fully running
