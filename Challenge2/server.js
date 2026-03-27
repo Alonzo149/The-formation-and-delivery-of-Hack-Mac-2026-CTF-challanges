@@ -17,7 +17,9 @@ db.serialize(() => {
     db.run("INSERT INTO secret_flags VALUES ('CTF{1nj3Ct!oNs}', 'supersecret')");
 
 });
-    
+
+app.use(express.static(path.join(__dirname, "views")));
+
 app.get("/challenge2", (req, res) => {
     res.sendFile(path.join(__dirname, "views", "login.html"));
 });

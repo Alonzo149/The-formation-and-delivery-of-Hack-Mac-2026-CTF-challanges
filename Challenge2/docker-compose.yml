@@ -2,5 +2,5 @@ services:
   challenge2:
     build: .
     ports:
-      - "8001:8000"
+      - "5001:5001"
     restart: always
