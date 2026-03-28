@@ -28,7 +28,7 @@ docker compose up
 ```
 Then navigate to:
 ```bash
-http://localhost:8000/challenge1
+http://localhost:5001/Challenge2
 ```
 
 Exit and delete the docker container:
