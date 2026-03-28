@@ -71,6 +71,12 @@ img {
     width: 42%;
     opacity: 0.95;
 }
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9aa5bd;
+}
 footer {
     margin-top: 40px;
     padding: 15px;
