@@ -40,7 +40,7 @@ app.post("/challenge2/login", (req, res) => {
             return;
         }
 
-        if (row.username.startsWith("CTF{")) {
+        if (row.username.startsWith("HACKMAC26{")) {
             res.send(`Login successful! Here is your flag: ${row.username}`);
         } else {
             res.sendFile(path.join(__dirname, "views", "admin.html"));
@@ -50,5 +50,5 @@ app.post("/challenge2/login", (req, res) => {
 });
 
 app.listen(5001, "0.0.0.0", () => {
-    console.log("Running on port 5001");
+    console.log("Server running at port http://localhost:5001/challenge2");
 });
