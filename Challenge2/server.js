@@ -14,7 +14,7 @@ db.serialize(() => {
     db.run("INSERT INTO users VALUES ('admin', 'supersecret')");
     
     db.run("CREATE TABLE secret_flags (FLAG TEXT, description TEXT)");
-    db.run("INSERT INTO secret_flags VALUES ('CTF{1nj3Ct!oNs}', 'supersecret')");
+    db.run("INSERT INTO secret_flags VALUES ('HACKMAC26{1nj3Ct!oNs}', 'supersecret')");
 
 });
 
