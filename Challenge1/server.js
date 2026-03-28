@@ -6,6 +6,12 @@ const app= express();
 
 app.use(express.static(__dirname));
 
+app.get("/challenge1/robots.txt", (req, res) => {
+    res.sendFile(__dirname + "/robots.txt");
+});
+
+// Don't need to specify /challenge1/ because it's already specified in the command above.
+
 app.get("/challenge1",(req,res) => {
     res.sendFile(__dirname + "/views/index.html");
 });

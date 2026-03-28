@@ -9,6 +9,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const db = new sqlite3.Database(":memory:");
 
+app.get("/challenge2/robots.txt", (req, res) => {
+    res.sendFile(__dirname + "/robots.txt");
+});
+
+// Don't need to specify /challenge2/
+
 db.serialize(() => {
     db.run("CREATE TABLE users (username TEXT, password TEXT)");
     db.run("INSERT INTO users VALUES ('admin', 'supersecret')");
