@@ -1,0 +1,12 @@
+head, body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #000000;
+}
+
+h1, p{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
