@@ -61,9 +61,9 @@ img {
 .f1, .f2 {
     display: none;
 }
-/* rest of flag hidden in css */
+/* Found another one */
 body::after {
-    content: "Easy_logs}";
+    content: "Medi";
     display: none;
 }
 footer {
