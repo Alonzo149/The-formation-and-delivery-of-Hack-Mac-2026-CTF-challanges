@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /login/
 Disallow: /style.css/
-Disallow: /injectchallenge2.txt/
+Allow: challenge2/injectchallenge2.txt/

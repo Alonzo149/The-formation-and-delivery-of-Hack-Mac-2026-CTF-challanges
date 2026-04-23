@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 const db = new sqlite3.Database(":memory:");
 
-app.get("/challenge2/robots.txt", (req, res) => {
-    res.sendFile(__dirname + "/robots.txt");
+app.get("/Challenge2/robots.txt", (req, res) => {
+    res.sendFile(path.join(__dirname + "/robots.txt"));
 });
 
 // Don't need to specify /challenge2/
