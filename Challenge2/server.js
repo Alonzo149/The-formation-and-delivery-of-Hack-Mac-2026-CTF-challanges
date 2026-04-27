@@ -47,7 +47,37 @@ app.post("/challenge2/login", (req, res) => {
         }
 
         if (row.username.startsWith("HACKMAC26{")) {
-            res.send(`Login successful! Here is your flag: ${row.username}`);
+            res.send(`
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Challenge 2</h1>
+    <div class="subtitle">Authentication Result</div>
+</header>
+
+<main>
+    <div class="card">
+        <h2>🎉 Success</h2>
+        <p>Here is your flag:</p>
+        <h3 style="color:#4cc9f0;">${row.username}</h3>
+
+        <a href="/challenge2" class="forgot">← Back to login</a>
+    </div>
+</main>
+
+<footer>
+    © 2026 Internal Systems
+</footer>
+
+</body>
+</html>
+`);
         } else {
             res.sendFile(path.join(__dirname, "views", "admin.html"));
         }
